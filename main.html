@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Dungeon Maze Crawler</title>
+    <style type = "text/css">
+        #output
+        {
+            position : absolute;
+            left : 750px;
+            top : 100px;
+            font-family : monospace;
+        }
+        #output2
+        {
+            position : absolute;
+            left : 750px;
+            top : 350px;
+            font-family : monospace;
+        }
+    </style>
+    <script type="text/javascript"
+            src = "simpleGame.js"></script>
+    <script type = "text/javascript"
+            src = "gun.js"></script>
+    <script type = "text/javascript"
+            src = "character.js"></script>
+    <script type = "text/javascript"
+            src = "zombie.js"></script>
+    <script type = "text/javascript"
+            src = "maze.js"></script>
+    <script type = "text/javascript"
+            src = "tile.js"></script>
+    <script type = "text/javascript"
+            src = "game.js"></script>
+    </script>
+</head>
+
+<body>
+
+<div id = "output">
+    Pick a difficulty below<br><br>
+    <input type = 'radio' value = 'Easy' id = 'Easy'>Easy<br>
+    <input type = 'radio' value = 'Normal' id = 'Normal'>Normal<br>
+    <input type = 'radio' value = 'Hard' id = 'Hard'>Hard<br>
+    <input type = 'radio' value = 'Extreme' id = 'Extreme'>Extreme<br><br>
+    <button type = 'submit' value = 'Submit' onclick = 'init()'>Submit<br>
+</div>
+
+<div id = "output2">
+</div>
+
+</body>
+</html>
